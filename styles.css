@@ -1,0 +1,14 @@
+body {
+    display: flex;
+}
+
+.side-bar {
+    background-image: url(desert.avif);
+    background-size: 500px;
+    width: 80vw;
+    height: 80vh;
+
+}
+
+
+.text-input {}
