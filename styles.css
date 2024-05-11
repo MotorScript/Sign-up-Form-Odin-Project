@@ -1,3 +1,7 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     display: flex;
 }
@@ -5,10 +9,21 @@ body {
 .side-bar {
     background-image: url(desert.avif);
     background-size: 500px;
-    width: 80vw;
+    width: 40vw;
     height: 80vh;
 
 }
 
+h2 {
+    color: #464646
+}
 
-.text-input {}
+.form-input {
+    color: #5d5d5d;
+    padding: 5px;
+}
+
+.fieldset-input {
+    margin: 50% 0;
+    width: min(400px, 80vw);
+}
