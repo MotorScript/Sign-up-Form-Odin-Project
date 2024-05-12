@@ -19,36 +19,43 @@
         </div>
     </div>
 
-    <form action="" method="post">
-
-        <fieldset class="fieldset-input">
-            <h2>Let's do this!</h2>
-            <div class="form-input">
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" name="first-name" id="first-name">
-            </div>
-            <div class="form-input">
-                <label for="last-name">LAST NAME</label>
-                <input type="text" name="last-name" id="last-name">
-            </div>
-            <div class="form-input">
-                <label for="email">EMAIL</Label>
-                <input type="email" name="email" id="user-email">
-            </div>
-            <div class="form-input">
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" id="phone" name="user-phone">
-            </div>
-            <div class="form-input">
-                <label for="password">PASSWORD</Label>
-                <input type="password" name="user-pass" id="password">
-            </div>
-            <div class="form-input">
-                <label for="conf-password">CONFIRM PASSWORD</label>
-                <input type="password" name="user-pass-conf" id="password">
-            </div>
-        </fieldset>
-    </form>
+    <div class="flex-form">
+        <div class="heading">
+            <h2>Sign Up Now!</h2>
+        </div>
+        <form action="" method="post">
+            <section class="section-input">
+                <!-- <h2>Let's do this!</h2> -->
+                <div class="form-input" id="input1">
+                    <label for="first-name">FIRST NAME</label>
+                    <input type="text" name="first-name" id="first-name">
+                </div>
+                <div class="form-input" id="input2">
+                    <label for="last-name">LAST NAME</label>
+                    <input type="text" name="last-name" id="last-name">
+                </div>
+                <div class="form-input" id="input3">
+                    <label for="email">EMAIL</Label>
+                    <input type="email" name="email" id="user-email">
+                </div>
+                <div class="form-input" id="input4">
+                    <label for="phone">PHONE NUMBER</label>
+                    <input type="tel" id="phone" name="user-phone">
+                </div>
+                <div class="form-input" id="input5">
+                    <label for="password">PASSWORD</Label>
+                    <input type="password" name="user-pass" id="password">
+                </div>
+                <div class="form-input" id="input6">
+                    <label for="conf-password">CONFIRM PASSWORD</label>
+                    <input type="password" name="user-pass-conf" id="password">
+                </div>
+            </section>
+            <button type="submit">
+                Create Account
+            </button>
+        </form>
+    </div>
 
 </body>
 

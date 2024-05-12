@@ -52,20 +52,46 @@ body {
     color: #e8e8e8;
 }
 
-h2 {
+.fieldset-input h2 {
     color: #464646
 }
 
+.heading {
+    text-align: center;
+}
+
 .form-input {
-    color: #5d5d5d;
+    color: #4b4b4b;
     padding: 5px;
+    letter-spacing: 0.05em;
+    font-size: .8em;
 }
 
 
-.fieldset-input {
+.section-input {
     margin: 0;
     width: calc(100vw - var(--side-bar-width));
     background-color: #FFFFFF;
     border: none;
     box-shadow: 0 6px 10px -3px gray;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+input,
+label {
+    display: flex;
+    flex-direction: column;
+}
+
+button[type="submit"] {
+    margin-top: 40px;
+    margin-left: 30px;
+    background-color: #d08f41;
+    border: none;
+    border-radius: 5px;
+    color: #e8e8e8;
+    width: 140px;
+    height: 25px;
 }
